@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio..</title>
+    <link rel="shortcut icon" href="./IMG_20221025_215731_741-removebg-preview.png" type="image/x-icon">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            position:fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            
+        }
+        #temp,#temp1,#temp2,#temp3,#temp4{
+            color: rgb(255, 254, 254);
+            padding: 100px 0 10px 0 ;
+            border: 2px solid rgb(255, 255, 255);
+        }
+        #first_table{
+            width: 100%;
+            background-color: #504B38;
+            color:white;
+            padding: 0px 20px;
+            
+        }
+      
+        #first{
+            width: 50%;
+            padding: 20px 50px;
+            font-size:100%;
+            text-align: left;
+            margin: 20px;
+        }
+        .second{
+            font-size: 100%;
+            padding: 20px 5px;
+            text-align: right;
+        }
+       
+        #main{
+            display: flex; 
+            align-items: center; 
+            justify-content:space-evenly; 
+            padding: 50px 0;
+        
+        }
+        #child_1{
+            text-align:left;
+            padding:  100px 0px 100px 50px;
+            width: 60%;
+            height: 100%;
+            border: 1px solid rgb(255, 255, 255);
+            font-size: 1rem;
+            color: #504B38;
+            font-family:Arial, Helvetica, sans-serif;
+
+            
+        }
+        #child_2{
+            width:40%;
+            height:100%;
+            padding-right: 30px;
+        }
+        img{
+            width:100%;
+            height:100%;
+
+        }
+        #git{
+             color: #504B38;
+             border: 1px solid ;
+             border-color: aliceblue;
+             padding: 5px;
+             border-radius: 30px;
+             background-color: #ffffff;
+             text-align: center;
+        }
+        .grand{
+            width: 100%;
+            height: 100%;
+            /* padding: 5px; */
+            color: #504B38;
+        }
+        .parent{
+            display: flex;
+            align-items: center;
+            justify-content:center;
+            width: 100%;
+            height: 100%;
+        }
+       
+        .hi{
+            background-color: #504B38;
+            width: 40%;
+            height: 300px;
+            border-radius: 20px;
+            margin: 5px;
+            
+        }
+        .namaste{
+            width: 70%;
+            height: 30%;
+        }
+       
+        .grand_2{
+           display: flex;
+          align-items: center;
+          justify-content:center;
+          width: 100%;
+          height: 100%;
+        }
+         
+        #frontend,#Backend, #fullstack{
+            width: 30%;
+            height: 400px;
+            background-color: #504B38;
+            margin: 20px;
+            align-items: center;
+          justify-content:center;
+            
+        }
+        .h3{
+            padding: 20px  ;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 200%;
+            color: #ffffff;
+        }
+        .babu{
+            color: #ffffff;
+            margin: 20px;
+            font-size: 30px;
+        }
+        
+        
+        #nani{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+            font-size: 40px;
+
+        }
+        #child_1_1{
+            border-radius: 20px;
+            background-color: #504B38;
+            color: white;
+            width: 100px;
+            padding: 5px 10px 5px 30px;
+        }
+        .div_class{
+            border: 2px solid ;
+            background-color: white;
+            color:#504B38;
+            border-radius: 20px;
+            text-align: center;
+            padding: 5px;
+        
+        }
+    
+        
+        th{
+            color: #ffffff;
+        }
+      
+        
+        .grand_2_1{
+            width: 40%;
+            text-align: center;
+            margin: 20px;
+            text-align:center;
+           
+        }
+        .grand_2_1_2{
+            width: 40%;
+            text-align: center;
+            margin: 50px;
+            text-align:left;
+           
+        }
+        #icon{
+            width: 80%;
+            display: flex;
+           align-items: center;
+          justify-content:center;
+          
+        }
+        .grand_3{
+           display: flex;
+           align-items: center;
+           justify-content:center;
+           width: 100%;
+           height: 500px;
+           background-color: #504B38;
+           color: #ffffff;
+        }
+        .width{
+            width: 300px;
+        }
+        #center{
+            text-align:center;
+        }
+      
+        footer{
+            position: sticky;
+            bottom: 0px;
+        
+        }
+    </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+            <table   id="first_table" >
+                <tr>
+                    <td id="first" ><a href="#about"><b>Home</b></a></td>
+                    <td class="second"><a href="#about"><b>About</b></a></td>
+                    <td class="second"><a href="#skills" ><b>Skills</b></a></td>
+                    <td class="second"><a href="#projects"><b>Projects</b></a></td>
+                    <td class="second"><a href="#education"><b>Education</b></a></td>
+                    <td class="second"><a href="#contact"><b>Contact Me</b></a></td>
+                    <td class="second" ><a href="https://github.com/JNaniBabu/html" id="git" target="_blank"> <i class="fa-brands fa-github"></i></a></td>
+                </tr>
+            </table>
+        <!-- </nav> -->
+    </header>
+
+<div id="temp"><p id="about">jdjldjfklfjfjlfdjf</p></div>
+<div id="main">
+    <div id="child_1" >
+        <p    >Hello ,<b  >I'm</b></p>
+        <h2 id="nani">Nani Babu</h2>
+        Full Stack Developer with expertise in HTML, CSS, JavaScript, Python, React, and Node.js. Passionate about building responsive, user-friendly web applications and optimizing performance. Skilled in UI/UX design, database management (MySQL, MongoDB), and problem-solving. Always eager to learn and implement new technologies for innovative solutions.
+      <br><br> <div id="child_1_1" ><a href="./JAKKULA NANI  BABU.pdf" target="_blank"><b>Resume</b></a></div>
+    </div>
+    <div id="child_2" >
+        <img src="./IMG_20221025_215731_741-removebg-preview.png" alt="" style="border-radius: 50%;" >
+    </div>
+
+</div>
+
+<div id="temp1"><p id="skills">this is for temparory purpose</p></div>
+<center>
+<div class="grand">
+    <h2 id="skills">SKILLS</h2>
+    <p>Here are some skills of Mine where im skilled and developed projects</p>
+    <br>
+       <div class="parent">
+            <div class="hi">
+                <table class="namaste" cellspacing="20px" rowspacing="70px">
+                    <tr>
+                        <th colspan="3" >FRONTEND</th>
+                       
+                    </tr>
+                    <tr>
+                        <td class="div_class">Html</td>
+                        <td class="div_class">Css</td>
+                        <td class="div_class">JavaScript</td>
+                    </tr>
+                    <br><br><br>
+                    <tr>
+                        <td class="div_class">Bootstrap</td>
+                        <td class="div_class">ReactJS</td>
+                        <td class="div_class">Angular</td>
+                    </tr>
+
+                </table>
+            </div>
+            
+            <div class="hi">
+                <table class="namaste" cellspacing="20px">
+                    <tr>
+                        <th colspan="3" >BACKEND</th>
+                       
+                    </tr>
+                    <br><br><br>
+                    <tr>
+                        <td class="div_class">Python</td>
+                        <td class="div_class">Django</td>
+                        <td class="div_class">Flask</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br>
+        <div class="parent">
+            <div class="hi">
+                <table class="namaste" cellspacing="20px">
+                    <tr>
+                        <th colspan="3">DATA BASE</th>
+                       
+                    </tr>
+                    <br><br><br>
+                    <tr>
+                        <td class="div_class">MySQL</td>
+                        <td class="div_class">MongoDB</td>
+                        <td class="div_class"> PostgreSQL</td>
+                    </tr>
+                    
+
+                </table>
+            </div>
+            <div class="hi">
+                <table class="namaste" cellspacing="20px">
+                    <tr>
+                        <th colspan="3">DEVELOPER TOOLS</th>
+                       
+                    </tr>
+                    <br><br><br>
+                    <tr>
+                        <td class="div_class">VScode</td>
+                        <td class="div_class">Pycharm</td>
+                        
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+<div id="temp2"><p id="projects">this is for temparory purpose</p></div>
+ <div class="grand" >
+    <h2>Projects</h2> <br><br>
+    <div class="grand_2">
+        <div id="frontend"> 
+            <h3 class="h3">Frontend Projects</h3>
+        </div>
+        <div id="Backend">
+            <h3 class="h3">Backend Projects</h3></div>
+        <div id="fullstack">
+            <h3 class="h3">Fullstack Projects</h3>
+        </div>
+    </div>
+</div> 
+
+<div id="temp3"><p id="skills">this is for temparory purpose</p></div>
+<div class="grand" id="education"  >
+    <h3>Education</h3>
+    <div  class="grand_2">
+        <div class="grand_2_1_2">
+            <h1>Mechanical Engineering</h1>
+            
+            <p>Guru Ghasidas Vishwavidyalaya, a Central University in Chhattisgarh, offers diverse undergraduate, postgraduate, and doctoral programs with excellent infrastructure, research opportunities, and a rich academic environment across various disciplines.</p>
+            <h2>CGPA:7.58</h2>
+        </div>
+        <div >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkLh3kV4IgEPiZOnti5VTHECwfm5EgE4lJg&s" alt="">
+        </div>
+    </div>
+    <div  class="grand_2">
+        <div class="grand_2_1_2">
+            <h1>Mpc</h1>
+            
+            <p>Guru Ghasidas Vishwavidyalaya, a Central University in Chhattisgarh, offers diverse undergraduate, postgraduate, and doctoral programs with excellent infrastructure, research opportunities, and a rich academic environment across various disciplines.</p>
+            <h2>CGPA:8.79</h2>
+        </div>
+        <div >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHkLh3kV4IgEPiZOnti5VTHECwfm5EgE4lJg&s" alt="">
+        </div>
+    </div>
+<div id="temp4"><p id="skills">this is for temparory purpose</p></div> 
+<div class="grand" id="contact" >
+    <h3>Contact Me</h3>
+    <footer>
+    <div class="grand_3">
+        <div class="grand_2_1">
+            <p>"Looking to work together or have any questions? Let's connect! Drop me a message, and I’ll get back to you as soon as possible."</p>
+            <div id="icon">
+                <a href="https://web.whatsapp.com/" class="babu" target="_blank">  <i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox" class="babu" target="_blank" title="email"> <i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.instagram.com/accounts/login/?hl=en" class="babu" target="_blank">  <i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/JNaniBabu/html" class="babu" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+               
+            </div>
+        </div>
+            <div class="grand_2_2">
+                <form action="./thank.html">
+                    <table id="center">
+                        <tr>
+                            <td>Name:&nbsp;</td>
+                            <td ><input type="text" class="width"   placeholder="Enter your name " required></td>
+                        </tr>
+                        <tr>
+                            <td >Email:&nbsp;</td>
+                            <td ><input type="email" class="width"   placeholder="Enter your email " required></td>
+                        </tr>
+                        <tr>
+                            <td>Enquiry:&nbsp;</td>
+                            <td ><textarea cols="20" rows="5" class="width" placeholder="Enquiry Details" required > </textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" ><input type="submit" value="Ping Me" style="border-radius: 20px; border: white;background-color:#ffffff;color:#504B38;"></td>
+                        </tr>
+                    </table>
+               </form>
+            </div>
+           
+          <br>
+          
+       </div>
+   </footer>
+</div>  
+</center>
+</body>
+</html>
+
+
+
+
+
